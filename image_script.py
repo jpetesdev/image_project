@@ -5,9 +5,6 @@ import PIL
 from os import listdir
 from PIL import Image
 
-with Image.open("./images/ic_local_pizza_black_48dp") as im:
-        im.rotate(90).show()
-
 image_dir = "./images"
 output_dir = "new_images/"
 
